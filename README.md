@@ -119,7 +119,7 @@ The goal isn't just a smaller model — it's an *adaptive* one. Easy inputs exit
 
 - **Simulated carbon signal** — grid intensity currently comes from predefined time-based values, not a live feed like WattTime or ElectricityMap. Swapping in a real API is the most direct next step toward matching the published methodology.
 - **Single-domain evaluation** — results are reported on one binary fake-news task. Generalizing the routing thresholds to multi-class or regression settings hasn't been tested yet.
-- **Fixed exit points** — early-exit heads sit at layers 3, 4, and 6. A learned or continuous exit criterion, rather than these fixed checkpoints, could recover a little more accuracy on borderline cases.
+
 
 ## Note on Scope
 
