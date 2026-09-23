@@ -43,9 +43,9 @@ Evaluated on 2,000 fake-news classification samples:
 95% of samples were confidently resolved just **3 layers deep** — a strong signal that most inputs don't need the full network at all.
 
 <p align="center">
-  <img src="results/results1.png" alt="Carbon-Aware Routing Distribution" width="46%">
+  <img src="results/result1.png" alt="Carbon-Aware Routing Distribution" width="46%">
   &nbsp;&nbsp;
-  <img src="results/results2.png" alt="Inference Latency Comparison" width="46%">
+  <img src="results/result2.png" alt="Inference Latency Comparison" width="46%">
 </p>
 
 The routing plays out almost entirely under low-carbon conditions, where the student model handles the load — and that lighter path translates directly into speed: GREEN-LM's adaptive pipeline runs **3.49x faster** than the full 12-layer teacher, with latency staying flat as sample count scales.
