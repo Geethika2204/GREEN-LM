@@ -86,7 +86,7 @@ The final evaluation set draws 2,000 samples from these files. The dataset is us
 
 ## Tech Stack
 
-Python · PyTorch · 🤗 Transformers & Datasets · Scikit-learn · Pandas · NumPy · Matplotlib
+Python · PyTorch · Transformers & Datasets · Scikit-learn · Pandas · NumPy · Matplotlib
 
 ## Project Structure
 
